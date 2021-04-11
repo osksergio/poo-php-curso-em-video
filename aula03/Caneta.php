@@ -5,11 +5,11 @@
  * @author sergio
  */
 class Caneta {
-    var $modelo;
-    var $cor;
-    var $ponta;
-    var $carga;
-    var $tampada;
+    public $modelo;
+    public $cor;
+    private $ponta;
+    protected $carga;
+    protected $tampada;
     
     function rabiscar() {
         if ( $this->tampada ) {
