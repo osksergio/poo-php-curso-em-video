@@ -11,7 +11,7 @@ class Caneta {
     protected $carga;
     protected $tampada;
     
-    function rabiscar() {
+    public function rabiscar() {
         if ( $this->tampada ) {
             echo "<p>Erro! Não posso rabiscar! A caneta está tampada.</p>";
         } else {
@@ -19,11 +19,11 @@ class Caneta {
         }
     }
     
-    function tampar() {
+    private function tampar() {
         $this->tampada = true;
     }
     
-    function destampar() {
+    private function destampar() {
         $this->tampada = false;
     }
 }

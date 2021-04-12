@@ -11,7 +11,15 @@
             
             // instância c1 da classe Caneta
             $c1 = new Caneta();
-  
+            $c1->modelo = "BIC Cristal";
+            $c1->cor = "Azul";
+
+            //$c1->carga = 99;
+            //$c1->tampada = true;
+
+            echo "<pre>";
+            print_r($c1);
+            echo "</pre>";            
         ?>
     </body>
 </html>
