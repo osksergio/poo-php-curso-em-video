@@ -24,7 +24,7 @@
             echo "</br>";
 
             // instância c2 da classe Caneta            
-            $c2 = new Caneta;
+            $c2 = new Caneta();
             $c2->cor = "Verde";
             $c2->carga = 50;
             $c2->tampar();
